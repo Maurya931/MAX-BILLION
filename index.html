@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="5billion - A revolutionary Peer-to-Peer platform offering seamless transactions and global connectivity.">
+    <meta name="keywords" content="5billion, Peer-to-Peer platform, online transactions, digital marketplace">
+    <meta name="author" content="5billion">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="5billion - Peer-to-Peer Platform">
+    <meta property="og:description" content="Join the future of peer-to-peer transactions with 5billion. Secure, fast, and global.">
+    <meta property="og:image" content="URL_TO_AN_IMAGE">
+    <meta property="og:url" content="YOUR_WEBSITE_URL">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <title>MAX BILLION - Peer-to-Peer Platform</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- AOS CSS for scroll animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navbar Styling */
+        .navbar {
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        .navbar-brand img {
+            max-width: 120px;
+        }
+
+        .navbar-nav .nav-link {
+            color: white !important;
+            font-size: 1rem;
+            margin: 5px;
+        }
+
+        .navbar-toggler {
+            border: none;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                        url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&h=1080');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 20px auto;
+            line-height: 1.6;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .hero p {
+                font-size: 1rem;
+            }
+            .navbar-brand img {
+                max-width: 100px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .hero {
+                padding: 40px;
+            }
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            .hero p {
+                font-size: 0.9rem;
+            }
+            .navbar-nav .nav-link {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="logo.jpg" alt="MAX BILLION" class="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#business-plan">Business Plan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#terms">Estimated Business</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#terms">Terms and Conditions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Thank You</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div>
+            <h1>Welcome to MAX BILLION Project</h1>
+            <p>Discover amazing things and explore what the world has to offer!</p>
+        </div>
+    </section>
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero-section d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h1 class="display-4 fw-bold mb-4">Transform Your Future with MAX BILLION</h1>
+                    <h2 class="h3 mb-4">Your Gateway to Financial Freedom</h2>
+                    <p class="lead mb-4">Join our revolutionary peer-to-peer platform where success meets support. Start your journey to financial independence today.</p>
+                    <div class="text-center text-lg-start mt-4">
+                        <a href="https://wa.me/message/GI34RPIKPQTJM1" 
+                           class="btn btn-custom btn-lg" 
+                           target="_blank"
+                           data-aos="fade-up" 
+                           data-aos-delay="400">
+                            Get Started <i class="fab fa-whatsapp ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <img src="https://img.freepik.com/free-vector/business-team-putting-together-jigsaw-puzzle-isolated-flat-vector-illustration-cartoon-partners-working-connection-teamwork-partnership-cooperation-concept_74855-9814.jpg" 
+                         alt="Team Success" 
+                         class="img-fluid rounded-3 shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Motivational Section -->
+    <section id="motivation" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="display-5 mb-4">Why Choose <span class="text-primary">MAX BILLION</span></h2>
+                    <p class="lead">Your success is our success. Together, we build a stronger future.</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <!-- Success Story 1 -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="content-card h-100 text-center">
+                        <img src="https://img.freepik.com/free-vector/business-team-celebrating-victory_74855-4452.jpg" 
+                             alt="Success Story" 
+                             class="img-fluid rounded-3 mb-4">
+                        <h4>Financial Freedom</h4>
+                        <p>"Take charge of your financial destiny. With 5billion, every small step leads to bigger rewards."</p>
+                    </div>
+                </div>
+                <!-- Success Story 2 -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="content-card h-100 text-center">
+                        <img src="https://img.freepik.com/free-vector/business-team-discussing-ideas-startup_74855-4380.jpg" 
+                             alt="Team Growth" 
+                             class="img-fluid rounded-3 mb-4">
+                        <h4>Team Growth</h4>
+                        <p>"Build your team, expand your network, and watch your success multiply with our proven system."</p>
+                    </div>
+                </div>
+                <!-- Success Story 3 -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="content-card h-100 text-center">
+                        <img src="https://img.freepik.com/free-vector/business-team-celebrating-success_74855-4451.jpg" 
+                             alt="Celebration" 
+                             class="img-fluid rounded-3 mb-4">
+                        <h4>Celebrate Success</h4>
+                        <p>"Join thousands who have already transformed their lives through dedication and smart investments."</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Motivational Stats -->
+            <div class="row mt-5 g-4">
+                <div class="col-md-3 col-6 text-center" data-aos="fade-up">
+                    <div class="content-card">
+                        <h3 class="counter text-primary">10K+</h3>
+                        <p>Active Members</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="content-card">
+                        <h3 class="counter text-primary">$5M+</h3>
+                        <p>Total Rewards</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 text-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="content-card">
+                        <h3 class="counter text-primary">95%</h3>
+                        <p>Success Rate</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 text-center" data-aos="fade-up" data-aos-delay="300">
+                    <div class="content-card">
+                        <h3 class="counter text-primary">24/7</h3>
+                        <p>Support</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Motivational Quote -->
+            <div class="row mt-5">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="content-card text-center quote-card">
+                        <i class="fas fa-quote-left fa-3x text-primary mb-3"></i>
+                        <p class="lead mb-4">"Success is not just about making money; it's about making dreams come true. At 5billion, we turn your aspirations into achievements."</p>
+                        <p class="text-primary mb-0">- MAX BILLION</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- About Section -->
+<section id="about" class="py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6" data-aos="fade-right">
+                <img src="https://img.freepik.com/free-vector/business-team-brainstorm-idea-lightbulb-from-jigsaw_1150-35019.jpg" 
+                     alt="About Us" 
+                     class="img-fluid rounded-3 shadow-lg mb-4 mb-lg-0">
+            </div>
+            <div class="col-lg-6" data-aos="fade-left">
+                <h2 class="display-5 mb-4">About <span class="text-primary">MAX BILLION</span></h2>
+                <p class="lead mb-4">We are a revolutionary peer-to-peer platform that believes in the power of community and mutual growth.</p>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="feature-card">
+                            <i class="fas fa-shield-alt text-primary mb-3"></i>
+                            <h4>Secure Platform</h4>
+                            <p>Your investments are protected by smart contracts</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-card">
+                            <i class="fas fa-chart-line text-primary mb-3"></i>
+                            <h4>Growth Focused</h4>
+                            <p>Structured rewards for consistent growth</p>
+                            <!-- Growth Graph -->
+                            <div class="growth-graph-container">
+                                <canvas id="growthChart" width="400" height="200"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Self Income Section -->
+    <section id="self-income" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h2 class="display-5 mb-4">Self <span class="text-primary">Income</span></h2>
+                    <p class="lead mb-4">Start earning from day one with our structured income plans</p>
+                    <div class="income-features">
+                        <div class="income-item mb-4">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <span>Daily rewards after 5 days of activation</span>
+                        </div>
+                        <div class="income-item mb-4">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <span>Transparent reward calculation</span>
+                        </div>
+                        <div class="income-item">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <span>Instant withdrawals</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <img src="https://img.freepik.com/free-vector/profit-growth-concept-illustration_114360-5170.jpg" 
+                         alt="Self Income" 
+                         class="img-fluid rounded-3 shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Plan -->
+    <section id="business-plan" class="py-5 bg-gradient">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-2" data-aos="fade-left">
+                    <div class="pricing-card">
+                        <img src="https://img.freepik.com/free-vector/investor-with-laptop-monitoring-growth-dividends-trader-with-computer-studying-stock-market-dynamics-flat-vector-illustration-finance-trading-investment-concept_74855-8469.jpg" 
+                             alt="Investment Plans" 
+                             class="img-fluid rounded-3 mb-4">
+                        <h3 class="mb-4">Investment Range</h3>
+                        <div class="mb-4">
+                            <p class="mb-2">Minimum Buying</p>
+                            <div class="price-tag">$20</div>
+                        </div>
+                        <div class="mb-4">
+                            <p class="mb-2">Maximum Buying</p>
+                            <div class="price-tag">$100</div>
+                        </div>
+                        <p class="text-primary">You can Buy daily units</p>
+                        <button class="btn btn-custom mt-4">
+                            Start Investing <i class="fas fa-arrow-right ms-2"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1" data-aos="fade-right">
+                    <img src="https://img.freepik.com/free-vector/business-planning-concept-illustration_114360-1503.jpg" 
+                         alt="Business Planning" 
+                         class="img-fluid rounded-3 shadow-lg mb-4">
+                    <h3>Business Plan & Its Importance</h3>
+                    <p class="lead">While Starting a Business</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to take Benefit -->
+    <section id="benefit" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="display-5 mb-4">How to take <span class="text-primary">Benefit</span></h2>
+                </div>
+                <div class="col-md-8 mx-auto" data-aos="fade-up">
+                    <div class="content-card mb-4">
+                        <p class="text-center mb-2">Bookings are placed daily at 11:00 Indian time</p>
+                        <p class="text-muted text-center small"> (Four time a day)</p>
+                    </div>
+                    <div class="benefit-timeline">
+                        <div class="d-flex justify-content-between align-items-center mb-4" data-aos="fade-right">
+                            <div class="d-flex align-items-center">
+                                <div class="bg-primary rounded-circle p-3 me-3">
+                                    <i class="fas fa-calendar-day text-white"></i>
+                                </div>
+                                <h4 class="mb-0">1st day</h4>
+                            </div>
+                            <div class="flex-grow-1 mx-4">
+                                <div class="progress" style="height: 2px;">
+                                    <div class="progress-bar bg-primary" style="width: 100%"></div>
+                                </div>
+                            </div>
+                            <p class="mb-0">Send USDT to team</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center" data-aos="fade-left">
+                            <div class="d-flex align-items-center">
+                                <div class="bg-success rounded-circle p-3 me-3">
+                                    <i class="fas fa-check text-white"></i>
+                                </div>
+                                <h4 class="mb-0">AFTER 5 DAYS</h4>
+                            </div>
+                            <div class="flex-grow-1 mx-4">
+                                <div class="progress" style="height: 2px;">
+                                    <div class="progress-bar bg-success" style="width: 100%"></div>
+                                </div>
+                            </div>
+                            <p class="mb-0">Get 115%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Level Income -->
+    <section id="team-income" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="display-5 mb-4">Team Level <span class="text-primary">Income</span></h2>
+                </div>
+                <div class="col-md-6" data-aos="fade-right">
+                    <div class="content-card">
+                        <div class="level-grid">
+                            <div class="level-item mb-3">
+                                <div class="bg-primary rounded p-2 text-white">Level - 1</div>
+                                <div class="ms-3">2% Daily</div>
+                            </div>
+                            <div class="level-item mb-3">
+                                <div class="bg-primary rounded p-2 text-white">Level - 2</div>
+                                <div class="ms-3">1% Daily</div>
+                            </div>
+                            <div class="level-item mb-3">
+                                <div class="bg-primary rounded p-2 text-white">Level - 3</div>
+                                <div class="ms-3">0.5% Daily</div>
+                            </div>
+                            <div class="level-item mb-3">
+                                <div class="bg-primary rounded p-2 text-white">Level - 4 to 7</div>
+                                <div class="ms-3">0.2% Daily</div>
+                            </div>
+                            <div class="level-item mb-3">
+                                <div class="bg-primary rounded p-2 text-white">Level - 8 to 12</div>
+                                <div class="ms-3">0.1% Daily</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <div class="content-card h-100 d-flex align-items-center">
+                        <div class="text-center">
+                            <i class="fas fa-users fa-3x text-primary mb-3"></i>
+                            <p class="lead">Encourage your team member to book every day so that he can earn USDT every day which will give you a daily level income</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Estimated Business -->
+  <!-- Estimated Business -->
+<!-- Estimated Business -->
+<!-- Estimated Business -->
+<!-- Estimated Business -->
+<section id="estimated-business" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center mb-5">
+                <h2 class="display-5 mb-4">ESTIMATED <span class="text-success">BUSINESS</span></h2>
+            </div>
+            <!-- Image Section -->
+            <div class="col-12 text-center mb-4">
+                <img src="https://www.slideteam.net/media/catalog/product/cache/960x720/f/i/financial_infographic_with_strategic_investment_for_revenue_growth_slide01.jpg" 
+                     alt="Investment Growth Chart" class="img-fluid rounded-3 shadow-lg">
+            </div>
+            <div class="col-12">
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered table-hover">
+                        <thead>
+                            <tr class="bg-success text-white">
+                                <th>S.NO</th>
+                                <th>TEAM MEMBER</th>
+                                <th>Booked Units</th>
+                                <th>Total Income</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1<sup>st</sup></td>
+                                <td>5</td>
+                                <td>25</td>
+                                <td>$10</td>
+                            </tr>
+                            <tr>
+                                <td>2<sup>nd</sup></td>
+                                <td>25</td>
+                                <td>125</td>
+                                <td>$25</td>
+                            </tr>
+                            <tr>
+                                <td>3<sup>rd</sup></td>
+                                <td>125</td>
+                                <td>625</td>
+                                <td>$62.5</td>
+                            </tr>
+                            <tr>
+                                <td>4<sup>th</sup></td>
+                                <td>625</td>
+                                <td>3125</td>
+                                <td>$125</td>
+                            </tr>
+                            <tr>
+                                <td>5<sup>th</sup></td>
+                                <td>3125</td>
+                                <td>15625</td>
+                                <td>$625</td>
+                            </tr>
+                            <tr>
+                                <td>6<sup>th</sup></td>
+                                <td>15625</td>
+                                <td>78125</td>
+                                <td>$1125</td>
+                            </tr>
+                            <tr>
+                                <td>7<sup>th</sup></td>
+                                <td>78125</td>
+                                <td>390625</td>
+                                <td>$15625</td>
+                            </tr>
+                            <tr>
+                                <td>8<sup>th</sup></td>
+                                <td>390625</td>
+                                <td>1953125</td>
+                                <td>$390625</td>
+                            </tr>
+                            <tr>
+                                <td>9<sup>th</sup></td>
+                                <td>1953125</td>
+                                <td>9765625</td>
+                                <td>$1953125</td>
+                            </tr>
+                            <tr>
+                                <td>10<sup>th</sup></td>
+                                <td>9765625</td>
+                                <td>48828125</td>
+                                <td>$9765625</td>
+                            </tr>
+                            <tr>
+                                <td>11<sup>th</sup></td>
+                                <td>48828125</td>
+                                <td>244140625</td>
+                                <td>$48828125</td>
+                            </tr>
+                            <tr>
+                                <td>12<sup>th</sup></td>
+                                <td>244140625</td>
+                                <td>1220703125</td>
+                                <td>$244140625</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="alert alert-info mt-4" role="alert">
+                    <strong>Note:</strong> If everyone in your team buys 5 units daily from a matrix of 5 then you can earn <strong>$30,527,410</strong> per day.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+    <!-- Team Business Reward -->
+    <section id="team-reward" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="display-5 mb-4">TEAM BUSINESS <span class="text-primary">REWARD</span></h2>
+                </div>
+                <div class="col-12" data-aos="fade-up">
+                    <div class="table-responsive">
+                        <table class="table table-dark table-hover">
+                            <thead>
+                                <tr>
+                                    <th>S. NO</th>
+                                    <th>TEAM BUSINESS</th>
+                                    <th>Reward</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1<sup>st</sup></td>
+                                    <td>2000</td>
+                                    <td>$16</td>
+                                </tr>
+                                <tr>
+                                    <td>2<sup>nd</sup></td>
+                                    <td>10000</td>
+                                    <td>$35</td>
+                                </tr>
+                                <tr>
+                                    <td>3<sup>rd</sup></td>
+                                    <td>25000</td>
+                                    <td>$50</td>
+                                </tr>
+                                <tr>
+                                    <td>4<sup>th</sup></td>
+                                    <td>75000</td>
+                                    <td>$100</td>
+                                </tr>
+                                <tr>
+                                    <td>5<sup>th</sup></td>
+                                    <td>300000</td>
+                                    <td>$300</td>
+                                </tr>
+                                <tr>
+                                    <td>6<sup>th</sup></td>
+                                    <td>1000000</td>
+                                    <td>$1000</td>
+                                </tr>
+                                <tr>
+                                    <td>7<sup>th</sup></td>
+                                    <td>4000000</td>
+                                    <td>$4000</td>
+                                </tr>
+                                <tr>
+                                    <td>8<sup>th</sup></td>
+                                    <td>15000000</td>
+                                    <td>$15000</td>
+                                </tr>
+                                <tr>
+                                    <td>9<sup>th</sup></td>
+                                    <td>75000000</td>
+                                    <td>$75000</td>
+                                </tr>
+                                <tr>
+                                    <td>10<sup>th</sup></td>
+                               <td>$250000</td>
+                                </tr>
+                                <tr>
+                                    <td>11<sup>th</sup></td>
+                                    <td>1000000000</td>
+                                    <td>$1000000</td>
+                                </tr>
+                                <tr>
+                                    <td>12<sup>th</sup></td>
+                                    <td>5000000000</td>
+                                    <td>$10000000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="alert alert-info mt-4" role="alert" data-aos="fade-up">
+                        <strong>Get 10 million Dollar on 5 billion Turnover</strong>
+                        <small class="d-block mt-2">*For reward you should have business in 5 Legs</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Terms and Conditions Section -->
+    <section id="terms" class="py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Terms Header -->
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="display-5 mb-4">TERM AND <span class="text-primary">CONDITION</span></h2>
+                </div>
+                
+                <div class="col-md-8 mx-auto" data-aos="fade-up">
+                    <!-- Terms List with Image on Right -->
+                    <div class="content-card d-flex">
+                        <!-- Terms List -->
+                        <div class="terms-list col-md-6">
+                            <ul class="list-unstyled">
+                                <li class="mb-3">
+                                    <i class="fas fa-check-circle text-success me-2"></i>
+                                    This is a smart contract Project, no admin is involved in the system, and only 0.5% will be Taken by the Creator.
+                                </li>
+                                <li class="mb-3">
+                                    <i class="fas fa-check-circle text-success me-2"></i>
+                                    Within 10 minutes of Booking, you must send USDT to the contract or your ID will be automatically blocked.
+                                </li>
+                                <li class="mb-3">
+                                    <i class="fas fa-check-circle text-success me-2"></i>
+                                    Self Income will be given After 5 days Of Activation.
+                                </li>
+                                <li class="mb-3">
+                                    <i class="fas fa-check-circle text-success me-2"></i>
+                                    For reward you should have business in 5 Legs.
+                                </li>
+                                <li class="mb-3">
+                                    <i class="fas fa-check-circle text-success me-2"></i>
+                                    No Admin Charge.
+                                </li>
+                    s
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+
+    <!-- Inspirational Quotes Section -->
+    <section id="inspiration" class="py-5 bg-gradient">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="display-5 mb-4">Success <span class="text-primary">Mindset</span></h2>
+                    <p class="lead">Empowering thoughts that drive success</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="quote-card">
+                        <img src="https://img.freepik.com/free-vector/successful-business-man-holding-trophy_1150-35042.jpg" 
+                             alt="Success" class="img-fluid rounded-3 mb-4">
+                        <i class="fas fa-quote-left text-primary mb-3"></i>
+                        <p class="lead">"Success is not final, failure is not fatal: it is the courage to continue that counts."</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="quote-card">
+                        <img src="https://img.freepik.com/free-vector/business-team-putting-together-jigsaw-puzzle-isolated-flat-vector-illustration-cartoon-partners-working-connection-teamwork-partnership-cooperation-concept_74855-9814.jpg" 
+                             alt="Teamwork" class="img-fluid rounded-3 mb-4">
+                        <i class="fas fa-quote-left text-primary mb-3"></i>
+                        <p class="lead">"Dream big, work hard, and make it happen!"</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="quote-card">
+                        <img src="https://img.freepik.com/free-vector/way-concept-illustration_114360-1191.jpg" 
+                             alt="Journey" class="img-fluid rounded-3 mb-4">
+                        <i class="fas fa-quote-left text-primary mb-3"></i>
+                        <p class="lead">"Your future is created by what you do today, not tomorrow."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Cryptocurrency Section -->
+    <section id="crypto" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h2 class="display-5 mb-4">Powered by <span class="text-primary">Blockchain</span></h2>
+                    <p class="lead mb-4">Secure, transparent, and efficient transactions through cryptocurrency</p>
+                    <div class="crypto-features">
+                        <div class="feature-item mb-4">
+                            <img src="https://img.freepik.com/free-vector/cryptocurrency-bitcoin-golden-coin-background_1017-31505.jpg" 
+                                 alt="Bitcoin" class="crypto-icon">
+                            <div>
+                                <h4>Bitcoin Integration</h4>
+                                <p>Safe and secure transactions</p>
+                            </div>
+                        </div>
+                        <div class="feature-item mb-4">
+                            <img src="https://img.freepik.com/free-vector/blockchain-technology-background-with-circuit-lines_1017-27428.jpg" 
+                                 alt="Blockchain" class="crypto-icon">
+                            <div>
+                                <h4>Smart Contracts</h4>
+                                <p>Automated and transparent</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="row g-4">
+                        <div class="col-6">
+                            <img src="https://img.freepik.com/free-vector/gradient-cryptocurrency-concept_23-2149215736.jpg" 
+                                 alt="Crypto" class="img-fluid rounded-3 shadow-lg mb-4">
+                        </div>
+                        <div class="col-6">
+                            <img src="https://img.freepik.com/free-vector/realistic-blockchain-background_23-2149166904.jpg" 
+                                 alt="Blockchain" class="img-fluid rounded-3 shadow-lg mb-4">
+                        </div>
+                        <div class="col-12">
+                            <img src="https://img.freepik.com/free-vector/cryptocurrency-exchange-abstract-concept-illustration_335657-1833.jpg" 
+                                 alt="Exchange" class="img-fluid rounded-3 shadow-lg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Stats Section -->
+    <section id="stats" class="py-5 bg-gradient">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6" data-aos="fade-up">
+                    <div class="stat-card">
+                        <img src="https://img.freepik.com/free-vector/investor-with-laptop-monitoring-growth-dividends_74855-14014.jpg" 
+                             alt="Investment" class="img-fluid rounded-3 mb-4">
+                        <div class="stat-number"><span class="counter">$50M+</span></div>
+                        <p>Total Investment</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stat-card">
+                        <img src="https://img.freepik.com/free-vector/business-team-discussing-ideas-startup_74855-4380.jpg" 
+                             alt="Users" class="img-fluid rounded-3 mb-4">
+                        <div class="stat-number"><span class="counter">20K+</span></div>
+                        <p>Active Users</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-card">
+                        <img src="https://img.freepik.com/free-vector/business-team-success-concept_74855-8818.jpg" 
+                             alt="Success" class="img-fluid rounded-3 mb-4">
+                        <div class="stat-number"><span class="counter">95% percent</span></div>
+                        <p>Success Rate</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stat-card">
+                        <img src="https://img.freepik.com/free-vector/business-team-celebrating-success_74855-4451.jpg" 
+                             alt="Growth" class="img-fluid rounded-3 mb-4">
+                        <div class="stat-number"><span class="counter">200% percent</span></div>
+                        <p>Annual Growth</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Thank You Section -->
+    <section id="contact" class="py-5 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center" data-aos="fade-up">
+                    <h2 class="display-1 mb-4 text-gradient">Thank You</h2>
+                    <img src="logo.jpg" alt="5billion" class="mb-4">
+                    <p class="lead mb-4">Waves Tower, Business Bay (Apartment),</p>
+                    <p class="lead">Dubai (UAE)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+
+
+
+    <!-- PDF Download Section -->
+<!-- PDF Download Section -->
+<!-- PDF Download Section -->
+<section id="pdf-download" class="py-5" style="background-color: #f8f9fa; border-top: 2px solid #007bff;">
+    <div class="container text-center">
+        <h2 class="display-4 mb-4" style="font-weight: 700;">Download the <span class="text-primary">MAX BILLION Full Plan</span></h2>
+        <p class="lead mb-4" style="font-size: 1.1rem;">Get the full 5billion plan by downloading the PDF file. Click the button below to download the document instantly!</p>
+
+        <!-- PDF Image Preview -->
+        <div class="mb-4">
+            <img src="image.png" alt="PDF Preview" class="img-fluid rounded shadow-lg" style="max-width: 150px;">
+        </div>
+
+        <!-- Download Button -->
+        <button class="btn btn-primary btn-lg px-4 py-2" id="download-btn" style="font-size: 1.1rem; font-weight: 600; border-radius: 50px; transition: all 0.3s;">
+            Download PDF
+        </button>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row gy-4">
+                <!-- Company Info -->
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-white mb-4">MAX BILLION</h5>
+                    <p class="text-muted">A peer-to-peer support system with a structured reward mechanism that encourages participants to help one another.</p>
+                    <div class="social-links mt-4">
+                        <a href="#" class="me-3"><i class="https://www.facebook.com/profile.php?id=61557682931341"></i></a>
+                    
+                        <a href="https://www.instagram.com/manojkumarmaurya899/" class="me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="https://t.me/fivebillionunits" class="me-3"><i class="fab fa-telegram"></i></a>
+                        <a href="https://api.whatsapp.com/qr/CTNG4JDEDADAK1?autoload=1&app_absent=0" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#business-plan">Business Plan</a></li>
+                        <li><a href="#terms">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+
+                <!-- Business Info -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Business Info</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#self-income">Self Income</a></li>
+                        <li><a href="#team-level">Team Level Income</a></li>
+                        <li><a href="#estimated-business">Estimated Business</a></li>
+                        <li><a href="#team-reward">Team Business Reward</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Contact Us</h5>
+                    <ul class="list-unstyled contact-info">
+                        <li>
+                            <i class="fas fa-map-marker-alt me-2"></i>
+                            Waves Tower, Business Bay (Apartment),<br>
+                            Dubai (UAE)
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope me-2"></i>
+                            <a href="mailto:contact@5billion.com">contact MAX BILLION.com</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-globe me-2"></i>
+                            <a href="https://5billion.com" target="_blank">www.MAX BILLION.io</a>
+                        </li>
+                        <li>
+                            <i class="fab fa-whatsapp me-2"></i>
+                            <a href="https://api.whatsapp.com/qr/CTNG4JDEDADAK1?autoload=1&app_absent=0" target="_blank">WhatsApp Support</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="border-top border-secondary pt-4">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 text-center text-md-start">
+                                <p class="mb-md-0 text-muted">&copy; 2025 MAX BILLION. All rights reserved.</p>
+                            </div>
+                            <div class="col-md-6 text-center text-md-end">
+                                <p class="mb-0 text-muted">
+                                    <a href="#terms" class="text-muted me-3">Terms & Conditions</a>
+                                    <a href="#privacy" class="text-muted">Privacy Policy</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
